@@ -132,7 +132,6 @@ margin-left: 68%;
     font-family: 'Dancing Script', cursive; 
        font-size: 28px;
        color: #5c5c5c;
-
        margin-top: 10%;
        line-height: 2em;
   }
@@ -181,25 +180,62 @@ margin-left: 68%;
        line-height: 2em;
   }
 
-  .parrafo9{
+  .parrafo7{
     text-align: center;
-    font-family: "Bad Script", cursiva; 
+    font-family: 'Dancing Script', cursive; 
        font-size: 28px;
        color: #5c5c5c;
        line-height: 30px;
-       margin-top: 5%;
+       margin-top: 14%;
+       line-height: 2em;
+  }
+  .loader2 {
+    border-radius: 50%;
+    margin-top: -15%;
+    width: 20px;
+    margin-left: 51%;
+    height: 20px;
+    border-radius: 50%;
+    background: #75804468;
+    animation: load-pulse 0.85s infinite linear;
+  }
   
-  } 
+  @keyframes load-pulse {
+    0% {
+      transform: scale(0.15);
+      opacity: 0;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
 
-  .parrafo10{
+
+  .parrafo8{
     text-align: center;
-    font-family: "Bad Script", cursiva; 
-       font-size: 25px;
+    font-family: 'Dancing Script', cursive; 
+       font-size: 28px;
        color: #5c5c5c;
        line-height: 30px;
-       margin-top: 10%;
-  
+       margin-top: 15%;
+       line-height: 2em;
   }
+
+
+
+
+
+
+
+
+
+  
 
   .lape{
     width: 23%;
@@ -223,14 +259,6 @@ margin-left: 68%;
   margin-top: 10%;
 }
 
-  .parrafo7{
-    text-align: center; 
-    font-family:'Amatic SC', cursive;
-       font-size: 38px;
-       color: #a992c0;
-       margin-top: 25%;  
-       font-weight: 600;
-  }
   .css-button-arrow--sand{
     padding: 2px 9px;
     font-size: 20px;
@@ -418,9 +446,9 @@ margin-left: 68%;
  margin-top: -50%;
  }
 .whatsap{
-  width: 15%;
- margin-left:43%;
- margin-top: 5%;
+  width: 18%;
+ margin-left:42%;
+ margin-top: 8%;
   
 }
 
